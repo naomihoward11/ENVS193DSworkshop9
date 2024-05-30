@@ -1,0 +1,15 @@
+---
+title: "Week9-collab-doc"
+format: html
+editor: visual
+---
+
+Load Libraries
+
+```{r}
+library(tidyverse) #for data wrangling
+library(lterdatasampler) #for data
+library(ggeffects) #for model
+library(here) #for file path
+```
+
