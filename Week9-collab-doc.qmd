@@ -13,7 +13,7 @@ library(ggeffects) #for model
 library(here) #for file path
 ```
 
-I am reading in data here!!! (edit this later)
+reading in data
 
 ```{r}
 data(pie_crab)
@@ -28,3 +28,12 @@ ggplot(aes(x = latitude, y = size), data = pie_crab) + #create the plot
   theme_minimal() #update the theme to not have grid
 ```
 
+writing a model here
+
+```{r}
+crab_model <- lm(size ~ latitude, #formula response ~ predictor
+                 data = pie_crab) #data frame
+
+par(mfrow = c(2, 2)) # display plots in a 2x2
+plot(crab_model) # plot diagnostics
+```
