@@ -13,3 +13,8 @@ library(ggeffects) #for model
 library(here) #for file path
 ```
 
+I am reading in data here!!! (edit this later)
+
+```{r}
+data(pie_crab)
+```
